@@ -346,7 +346,7 @@ public class AIPath : MonoBehaviour {
 	
 	protected float XZSqrMagnitude (Vector3 a, Vector3 b) {
 		float dx = b.x-a.x;
-		float dz = b.z-a.z;
+		float dz = b.y-a.y;
 		return dx*dx + dz*dz;
 	}
 	
@@ -436,7 +436,7 @@ public class AIPath : MonoBehaviour {
 		
 		rot = Quaternion.Slerp (rot,toTarget,turningSpeed*Time.deltaTime);
 		Vector3 euler = rot.eulerAngles;
-		euler.z = 0;
+		euler.y = 0;
 		euler.x = 0;
 		rot = Quaternion.Euler (euler);
 		

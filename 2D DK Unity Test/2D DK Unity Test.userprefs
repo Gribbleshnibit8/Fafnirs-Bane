@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\AStarAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AstarPathfindingProject\Core\AI\Seeker.cs">
     <Files>
-      <File FileName="Assets\Resources\Scripts\UIInterfaceManager.cs" Line="12" Column="6" />
-      <File FileName="Assets\Resources\Scripts\GameInstance.cs" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Scripts\AStarAI.cs" Line="22" Column="3" />
+      <File FileName="Assets\Resources\Scripts\AStarAI.cs" Line="32" Column="1" />
+      <File FileName="Assets\AstarPathfindingProject\Core\AI\AIPath.cs" Line="401" Column="30" />
+      <File FileName="Assets\AstarPathfindingProject\Core\AI\Seeker.cs" Line="19" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

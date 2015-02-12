@@ -3,7 +3,7 @@ using System.Collections;
 //Note this line, if it is left out, the script won't know that the class 'Path' exists and it will throw compiler errors
 //This line should always be present at the top of scripts which use pathfinding
 using Pathfinding;
-public class AstarAI : MonoBehaviour
+public class AStarAI : MonoBehaviour
 {
     //The point to move to
     public Vector3 targetPosition;
